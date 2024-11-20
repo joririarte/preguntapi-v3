@@ -1,0 +1,445 @@
+[
+  {
+    "id": "1",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál de estos es un elemento de bloque?",
+    "answers": {
+      "answer_a": "<span>",
+      "answer_b": "<table>",
+      "answer_c": "<em>",
+      "answer_d": "<img>"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "2",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál es la sintaxis correcta para añadir un \"checkbox\"?",
+    "answers": {
+      "answer_a": "<checkbox>",
+      "answer_b": "<check>",
+      "answer_c": "<input type='checkbox'>"
+    },
+    "correct_answer": "answer_c",
+    "feedback": "Los checkbox se consiguen con la etiqueta <input type=\"checkbox\">."
+  },
+  {
+    "id": "3",
+    "category": "html",
+    "level": "dificil",
+    "question": "¿Qué define el atributo \"action\" en el elemento <form>?",
+    "answers": {
+      "answer_a": "El método http para enviar los datos del formulario",
+      "answer_b": "Dónde enviar los datos del formulario cuando se envían",
+      "answer_c": "El tipo mime utilizado para codificar el contenido"
+    },
+    "correct_answer": "answer_b",
+    "feedback": "El atributo action indica la página a la que se envían los datos del formulario. Si este atributo está vacío, es la página que contiene el formulario la que se recargará con los datos como parámetros."
+  },
+  {
+    "id": "4",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cuál es la sintaxis válida de los comentarios en HTML?",
+    "answers": {
+      "answer_a": "<!-- Comentario -->",
+      "answer_b": "/* Comentario */",
+      "answer_c": "// Comentario"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "5",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Qué significa HTML?",
+    "answers": {
+      "answer_a": "Hypertext Markdown Language",
+      "answer_b": "Hypertext Machine Language",
+      "answer_c": "Hypertext Markup Language"
+    },
+    "correct_answer": "answer_c",
+    "feedback": "HTML (Lenguaje de Marcas de Hipertexto, del inglés HyperText Markup Language) es el componente más básico de la Web. Define el significado y la estructura del contenido web."
+  },
+  {
+    "id": "6",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cuál de estos \"meta-tags\" está \"deprecated\"",
+    "answers": {
+      "answer_a": "description",
+      "answer_b": "keywords",
+      "answer_c": "author",
+      "answer_d": "copyright"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "7",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cuál es la forma correcta de declarar un documento HTML5?",
+    "answers": {
+      "answer_a": "<!DOCTYPE html5>",
+      "answer_b": "<!DOCTYPE html>"
+    },
+    "correct_answer": "answer_b",
+    "feedback": "<!DOCTYPE html> La etiqueta doctype declara el tipo de documento, por lo que esta está señalando que este es un documento HTML."
+  },
+  {
+    "id": "8",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál es la forma correcta de crear un enlace de correo electrónico?",
+    "answers": {
+      "answer_a": "<a href=\"mailto:email@email.com\">Email</a>",
+      "answer_b": "<a href=\"email:email@email.com\">Email</a>",
+      "answer_c": "<a href=\"send:email@email.com\">Email</a>"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "9",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Tanto '.html' como '.htm' son extensiones HTML válidas?",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "10",
+    "category": "html",
+    "level": "dificil",
+    "question": "Qué fuente de imagen está un nivel por encima de la carpeta actual",
+    "answers": {
+      "answer_a": "<img src=\"picture.jpg\">",
+      "answer_b": "<img src=\"../picture.jpg\">",
+      "answer_c": "<img src=\"/images/picture.jpg\">"
+    },
+    "correct_answer": "answer_b",
+    "feedback": "Usando dos puntos y una barra oblicua (../) podemos subir un nivel en la jerarquía de carpetas."
+  },
+  {
+    "id": "11",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál de los siguientes elementos no corresponde a la sección <head>?",
+    "answers": {
+      "answer_a": "<title>",
+      "answer_b": "<header>",
+      "answer_c": "<meta>",
+      "answer_d": "<link>"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "12",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuántas etiquetas <heading> hay en HTML?",
+    "answers": {
+      "answer_a": "2",
+      "answer_b": "4",
+      "answer_c": "6"
+    },
+    "correct_answer": "answer_c",
+    "feedback": "Los elementos de encabezado implementan seis niveles de encabezado del documento, <h1> es el más importante, y <h6>, el menos importante. Un elemento de encabezado describe brevemente el tema de la sección que presenta. La información de encabezado puede ser usada por los agentes usuarios, por ejemplo, para construir una tabla de contenidos para un documento automáticamente."
+  },
+  {
+    "id": "13",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Para qué se utiliza la etiqueta <iframe>?",
+    "answers": {
+      "answer_a": "Para incrustar contenido",
+      "answer_b": "Para dibujar gráficos",
+      "answer_c": "Para enmarcar un grupo de elementos"
+    },
+    "correct_answer": "answer_a",
+    "feedback": "El elemento HTML <iframe> (de inline frame) representa un contexto de navegación anidado, el cual permite incrustar otra página HTML en la página actual."
+  },
+  {
+    "id": "14",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Qué define el atributo 'alt' dentro de la etiqueta <img/>",
+    "answers": {
+      "answer_a": "La descripción de una imagen para cuando esta no se pueda mostrar",
+      "answer_b": "Una imagen alternativa a la imagen principal"
+    },
+    "correct_answer": "answer_a",
+    "feedback": "Este atributo define el texto alternativo que describe la imagen, texto que los usuarios verán si la URL de la imagen es errónea o la imagen tiene un formato no soportado o si la imagen aún no se ha descargado."
+  },
+  {
+    "id": "15",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Qué etiqueta HTML se usa para definir texto importante?",
+    "answers": {
+      "answer_a": "<i>",
+      "answer_b": "<b>",
+      "answer_c": "<strong>",
+      "answer_d": "<important>"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "16",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál de estos es un elemento en línea?",
+    "answers": {
+      "answer_a": "<form>",
+      "answer_b": "<hr>",
+      "answer_c": "<a>",
+      "answer_d": "<canvas>"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "17",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cuál es la sintaxis correcta para los estilos en línea?",
+    "answers": {
+      "answer_a": "<p color=\"red\">Text</p>",
+      "answer_b": "<p color:\"red\">Text</p>",
+      "answer_c": "<p style=\"color:red\">Text</p>"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "18",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál de estos elementos no es un 'input type'?",
+    "answers": {
+      "answer_a": "file",
+      "answer_b": "radio",
+      "answer_c": "list",
+      "answer_d": "submit"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "19",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cuál es la forma correcta de definir un enlace?",
+    "answers": {
+      "answer_a": "<a url=\"path/to/file\">Link</a>",
+      "answer_b": "<a link=\"path/to/file\">Link</a>",
+      "answer_c": "<a href=\"path/to/file\">Link</a>"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "20",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Qué atributo se usa para especificar que un 'input' debe completarse?",
+    "answers": {
+      "answer_a": "placeholder",
+      "answer_b": "mandatory",
+      "answer_c": "validate",
+      "answer_d": "required"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "21",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Qué etiqueta se utiliza para producir un salto de línea?",
+    "answers": {
+      "answer_a": "<break>",
+      "answer_b": "<br>",
+      "answer_c": "<b>",
+      "answer_d": "<new>"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "22",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cómo puedes hacer una lista numerada?",
+    "answers": {
+      "answer_a": "<list>",
+      "answer_b": "<ol>",
+      "answer_c": "<ul>"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "23",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál de estos es un campo de contraseña válido?",
+    "answers": {
+      "answer_a": "<text type=\"password\">",
+      "answer_b": "<password>",
+      "answer_c": "<input type=\"password\">"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "24",
+    "category": "html",
+    "level": "dificil",
+    "question": "¿Qué hace la etiqueta <pre>?",
+    "answers": {
+      "answer_a": "Resalta el texto",
+      "answer_b": "Define texto preformateado",
+      "answer_c": "Muestra el texto como una cita"
+    },
+    "correct_answer": "answer_b",
+    "feedback": "El elemento HTML <pre> representa texto preformateado. El texto en este elemento típicamente se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo."
+  },
+  {
+    "id": "25",
+    "category": "html",
+    "level": "dificil",
+    "question": "¿Cuál no se considera una etiqueta de cita?",
+    "answers": {
+      "answer_a": "<cite>",
+      "answer_b": "<q>",
+      "answer_c": "<blockquote>",
+      "answer_d": "<em>"
+    },
+    "correct_answer": "answer_d",
+    "feedback": "La etiqueta <em>, se utiliza para resaltar texto en el documento dando “énfasis” al texto sobre el que se aplica la etiqueta. NO representa una cita."
+  },
+  {
+    "id": "26",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cuál es el elemento raíz de HTML?",
+    "answers": {
+      "answer_a": "<body>",
+      "answer_b": "<html>",
+      "answer_c": "<head>",
+      "answer_d": "<doctype>"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "27",
+    "category": "html",
+    "level": "facil",
+    "question": "¿Cuál de estas es una etiqueta de cierre automático?",
+    "answers": {
+      "answer_a": "<h1>",
+      "answer_b": "<nav>",
+      "answer_c": "<input>",
+      "answer_d": "<code>"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "28",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál es la forma correcta de abrir un enlace en una nueva pestaña/ventana del navegador?",
+    "answers": {
+      "answer_a": "<a href=\"url\" target=\"_new\">",
+      "answer_b": "<a href=\"url\" target=\"_blank\">",
+      "answer_c": "<a href=\"url\" target=\"_window\">"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "29",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál es la sintaxis correcta para 'textarea'?",
+    "answers": {
+      "answer_a": "<textarea>",
+      "answer_b": "<input type=\"textarea\">",
+      "answer_c": "<input type=\"textbox\">"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "30",
+    "category": "html",
+    "level": "facil",
+    "question": "Qué etiqueta se utiliza para definir el título del documento",
+    "answers": {
+      "answer_a": "<head>",
+      "answer_b": "<meta>",
+      "answer_c": "<title>"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "307",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuáles son los mejores ejemplos de elementos vacíos?",
+    "answers": {
+      "answer_a": "<link><meta><title>",
+      "answer_b": "<br><base><source>",
+      "answer_c": "<input><br><p>",
+      "answer_d": "<area><embed><strong>"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "308",
+    "category": "html",
+    "level": "dificil",
+    "question": "¿Cuál es el propósito principal de la etiqueta <canvas>?",
+    "answers": {
+      "answer_a": "Permite representar imágenes rasterizadas en la página web",
+      "answer_b": "Muestra imágenes con anotaciones",
+      "answer_c": "Permite dibujar sobre un mapa de bits a través de JavaScript",
+      "answer_d": "Permite representar imágenes vectoriales en la página web"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "309",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cómo se escribiría una entrada que permita al usuario seleccionar entre un rango de valores enteros entre 0 y 100 (inclusive) en incrementos de 5?",
+    "answers": {
+      "answer_a": "<input type=\"range\" min=\"0\" max=\"100\" by=\"5\" />",
+      "answer_b": "<input type=\"range\" min=\"0\" max=\"100\" step=\"5\" />",
+      "answer_c": "<input type=\"number\" min=\"0\" max=\"100\" step=\"5\" />",
+      "answer_d": "<input type=\"number\" min=\"0\" max=\"100\" by=\"5\" />"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "310",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Cuál es la diferencia entre <svg> y <canvas>?",
+    "answers": {
+      "answer_a": "<svg> produce gráficos vectoriales, mientras que <canvas> produce gráficos rasterizados",
+      "answer_b": "<svg> se integra con JavaScript, mientras que <canvas> no",
+      "answer_c": "<svg> produce gráficos de trama, mientras que <canvas> produce gráficos vectoriales",
+      "answer_d": "<svg> no se puede usar como imagen de fondo, mientras que <canvas> se puede usar como fondo"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "311",
+    "category": "html",
+    "level": "normal",
+    "question": "¿Para qué sirve el atributo class?",
+    "answers": {
+      "answer_a": "Las clases permiten a CSS seleccionar elementos específicos en la página. En el atributo class se pueden incluir tantos nombres de clase como se desee, separados por espacios",
+      "answer_b": "Las clases permiten a CSS y JavaScript seleccionar elementos específicos en la página. Solo puede enumerar un nombre de clase por atributo de clase",
+      "answer_c": "Las clases permiten a CSS seleccionar elementos específicos en la página. Solo puede enumerar un nombre de clase por atributo de clase",
+      "answer_d": "Las clases permiten que CSS y JavaScript seleccionen elementos específicos en la página. Puede enumerar tantos nombres de clase dentro del atributo class como desee, separados por espacios"
+    },
+    "correct_answer": "answer_d"
+  }
+]
