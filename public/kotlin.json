@@ -1,0 +1,311 @@
+[
+  {
+    "id": "171",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Qué palabra clave se usa para definir una función?",
+    "answers": {
+      "answer_a": "main",
+      "answer_b": "fun",
+      "answer_c": "function",
+      "answer_d": "new"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "172",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "En Kotlin, se debe definir al menos una función main().",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "173",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "En Kotlin, println y la función print hacen lo mismo.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "174",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "No se puede restablecer el valor de una variable \"val\".",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "175",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "Kotlin es desarrollado por:",
+    "answers": {
+      "answer_a": "Google",
+      "answer_b": "IBM",
+      "answer_c": "Sun Systems",
+      "answer_d": "JetBrains"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "176",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Cuál de las siguientes extensiones se usa para crear un archivo Kotlin?",
+    "answers": {
+      "answer_a": ".ko",
+      "answer_b": ".kt",
+      "answer_c": ".jv",
+      "answer_d": ".app"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "177",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Cómo se hacen los comentarios en Kotlin?",
+    "answers": {
+      "answer_a": "// Esto es un comentario",
+      "answer_b": "*/ Esto es un comentario",
+      "answer_c": "# Esto es un comentario",
+      "answer_d": "<!-- Esto es un comentario -->"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "178",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Podemos usar Kotlin en el lenguaje de programación Java?",
+    "answers": {
+      "answer_a": "Sí",
+      "answer_b": "No"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "179",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Cuántos tipos de constructores hay disponibles en Kotlin?",
+    "answers": {
+      "answer_a": "1",
+      "answer_b": "2",
+      "answer_c": "3",
+      "answer_d": "4"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "180",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Cómo se crea una instancia de clase?",
+    "answers": {
+      "answer_a": "val person = new Person()",
+      "answer_b": "val person = obj Person()",
+      "answer_c": "val person = Person()",
+      "answer_d": "val person = instace of Person()"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "181",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "La visibilidad predeterminada de una clase en Kotlin es:",
+    "answers": {
+      "answer_a": "public",
+      "answer_b": "private",
+      "answer_c": "protected",
+      "answer_d": "internal"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "182",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Puedes ejecutar código Kotlin sin JVM?",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "183",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "¿Cuál de las siguientes se usa para manejar excepciones nulas?",
+    "answers": {
+      "answer_a": "Lambda Function",
+      "answer_b": "Range",
+      "answer_c": "Sealed Class",
+      "answer_d": "Elvis operator"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "184",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "¿Cuál de los siguientes no es un tipo de datos básico en Kotlin?",
+    "answers": {
+      "answer_a": "Array",
+      "answer_b": "List",
+      "answer_c": "String",
+      "answer_d": "Character"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "185",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "El lenguaje Kotlin es:",
+    "answers": {
+      "answer_a": "OOP",
+      "answer_b": "Procedural Programming",
+      "answer_c": "Las dos anteriores",
+      "answer_d": "Ninguna de las anteriores"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "186",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "Kotlin se puede utilizar en desarrollo web.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "187",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "¿Cuál de las siguientes no es una palabra clave reservada en Kotlin?",
+    "answers": {
+      "answer_a": "super",
+      "answer_b": "package",
+      "answer_c": "static",
+      "answer_d": "dynamic"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "188",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "En Kotlin, la especificación del paquete debe realizarse:",
+    "answers": {
+      "answer_a": "Al inicio del archivo",
+      "answer_b": "Al final del archivo",
+      "answer_c": "En cualquier sitio del archivo"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "189",
+    "category": "kotlin",
+    "level": "facil",
+    "question": "En Kotlin un programa comienza a ejecutarse desde:",
+    "answers": {
+      "answer_a": "Parte superior del archivo",
+      "answer_b": "Primera clase  del archivo",
+      "answer_c": "Desde el método main",
+      "answer_d": "Ninguna de las anteriores"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "190",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "En Kotlin, la herencia entre clases se declara mediante un símbolo:",
+    "answers": {
+      "answer_a": "?",
+      "answer_b": ":",
+      "answer_c": "\"\"",
+      "answer_d": "()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "362",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "Puede mostrar u ocultar una vista en su aplicación configurando su visibilidad. ¿Cuáles de los siguientes son valores de visibilidad válidos?",
+    "answers": {
+      "answer_a": "Visible",
+      "answer_b": "Clear",
+      "answer_c": "None"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "363",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "¿Qué parámetro especifica el nivel de la API de Android que debe usar Gradle para compilar su aplicación?",
+    "answers": {
+      "answer_a": "minSdkVersion",
+      "answer_b": "compileSdkVersion",
+      "answer_c": "targetSdkVersion",
+      "answer_d": "testSdkVersion"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "364",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "_______ es una forma de restringir el acceso directo a algunos de los campos de un objeto.",
+    "answers": {
+      "answer_a": "LiveData",
+      "answer_b": "Encapsulation",
+      "answer_c": "Target"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "365",
+    "category": "kotlin",
+    "level": "normal",
+    "question": "¿Cuáles de los siguientes es un método de los ciclos de vida de activity y fragment?",
+    "answers": {
+      "answer_a": "onDraw()",
+      "answer_b": "onCreate()",
+      "answer_c": "onClick()"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "242",
+    "category": "kotlin",
+    "level": "dificil",
+    "question": "¿Cuál es la forma correcta de crear un arraylist en Kotlin?",
+    "answers": {
+      "answer_a": "val map = hashMapOf(1 to 'one', 2 to 'two', 3 to 'three')",
+      "answer_b": "enum class Color {RED, GREEN, BLUE}",
+      "answer_c": "val list = arrayListOf(1, 2, 3)",
+      "answer_d": "val set = hashSetOf(1, 2, 3)"
+    },
+    "correct_answer": "answer_c"
+  }
+]
