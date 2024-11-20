@@ -23,7 +23,14 @@ export default async function handler(req, res) {
     try {
       await fs.access(filePath);
     } catch (err) {
-      return res.status(404).json({ error: "Archivo de categoría no encontrado", ruta_script: process.cwd(), ruta_archivo: filePath });
+        console.error("Error al leer el archivo:", err); // Mostrar el error completo en la consola
+        return res.status(404).json({
+          error: "Archivo de categoría no encontrado",
+          mensaje: err.message, // Mensaje del error
+          pila: err.stack,      // Pila del error (si está disponible)
+          ruta_script: process.cwd(), // Ruta al script actual
+          ruta_archivo: filePath    // Ruta al archivo que se intentaba leer
+          });
     }
 
     // Leer el archivo JSON
