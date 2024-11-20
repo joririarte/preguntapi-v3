@@ -23,7 +23,7 @@ export default async function handler(req, res) {
     try {
       await fs.access(filePath);
     } catch (err) {
-      return res.status(404).json({ error: "Archivo de categoría no encontrado" });
+      return res.status(404).json({ error: "Archivo de categoría no encontrado", ruta: filePath });
     }
 
     // Leer el archivo JSON
