@@ -1,0 +1,459 @@
+[
+  {
+    "id": "31",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Qué se puede seleccionar con un asterisco (*)?",
+    "answers": {
+      "answer_a": "Una \"clase\"",
+      "answer_b": "Un \"id\"",
+      "answer_c": "Todos los elementos"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "32",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Cuál es la secuencia correcta del modelo de caja de adentro hacia afuera?",
+    "answers": {
+      "answer_a": "Content -> padding -> border -> margin",
+      "answer_b": "Content -> border -> padding -> margin",
+      "answer_c": "Content -> margin -> border -> padding"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "33",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Qué hace box-sizing: border-box?",
+    "answers": {
+      "answer_a": "Crear un \"margin\" adicional igual al tamaño del \"padding\" y el \"border\"",
+      "answer_b": "Incluir el \"padding\" y el \"border\" en el ancho y alto total de un elemento"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "34",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Qué selector se utiliza para acceder a las clases?",
+    "answers": {
+      "answer_a": "*",
+      "answer_b": "#",
+      "answer_c": "."
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "35",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Cuál de estos no es un nombre de color predefinido?",
+    "answers": {
+      "answer_a": "DodgerBlue",
+      "answer_b": "MediumSeaGreen",
+      "answer_c": "VioletBlue",
+      "answer_d": "Tomato"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "36",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Cuál de estos no es un sistema de color válido?",
+    "answers": {
+      "answer_a": "HEX",
+      "answer_b": "DOTA",
+      "answer_c": "RGB",
+      "answer_d": "HSL"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "37",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Qué selector de combinación no se usa en CSS?",
+    "answers": {
+      "answer_a": ">",
+      "answer_b": "+",
+      "answer_c": "/",
+      "answer_d": "~"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "38",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cuál es la sintaxis correcta para los comentarios CSS?",
+    "answers": {
+      "answer_a": "<!-- Comentario -->",
+      "answer_b": "/* Comentario */",
+      "answer_c": "// Comentario"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "39",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Cuál es la propiedad de posición predeterminada para los elementos html?",
+    "answers": {
+      "answer_a": "Fixed",
+      "answer_b": "Relative",
+      "answer_c": "Absolute",
+      "answer_d": "Static"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "40",
+    "category": "css",
+    "level": "dificil",
+    "question": "Un elemento con \"position: fixed\" se coloca en relación al \"viewport\".",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "41",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Qué hace el selector :focus?",
+    "answers": {
+      "answer_a": "Establece el elemento para que se enfoque de forma predeterminada",
+      "answer_b": "Selecciona el elemento cuando tiene foco"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "42",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cuál es la forma correcta de establecer el color de una fuente?",
+    "answers": {
+      "answer_a": "font-color: red",
+      "answer_b": "text-color: red",
+      "answer_c": "color: red"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "43",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Qué selector se usa para acceder al ID?",
+    "answers": {
+      "answer_a": "#",
+      "answer_b": ".",
+      "answer_c": "*"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "44",
+    "category": "css",
+    "level": "normal",
+    "question": "La regla '!important' se usa para dar más importancia a una propiedad/valor.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "45",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Qué es cierto sobre display:inline-block?",
+    "answers": {
+      "answer_a": "Agrega un salto de línea después del elemento",
+      "answer_b": "Permite establecer un ancho y alto en el elemento"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "46",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Cuál de estas propiedades se utiliza para controlar la secuencia de capas CSS?",
+    "answers": {
+      "answer_a": "Z-index",
+      "answer_b": "X-index",
+      "answer_c": "Y-index"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "47",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Qué propiedad se puede usar para eliminar los marcadores de una lista?",
+    "answers": {
+      "answer_a": "text-decoration: none",
+      "answer_b": "list-style-type: none"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "48",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Qué se puede comprobar con las media queries?",
+    "answers": {
+      "answer_a": "Orientación",
+      "answer_b": "Resolución",
+      "answer_c": "Ancho y alto de la ventana del navegador",
+      "answer_d": "Todo lo anterior"
+    },
+    "correct_answer": "answer_d"
+  },
+  {
+    "id": "49",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Qué significa CSS?",
+    "answers": {
+      "answer_a": "Cascading Style Sheets",
+      "answer_b": "Cascading Style System",
+      "answer_c": "Color Style Sheets"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "50",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Cuál de estas declaraciones da más transparencia al elemento?",
+    "answers": {
+      "answer_a": "opacity:.1",
+      "answer_b": "opacity:.5",
+      "answer_c": "opacity:0.9"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "51",
+    "category": "css",
+    "level": "dificil",
+    "question": "El valor por defecto de 'overflow' es 'visible'.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "52",
+    "category": "css",
+    "level": "normal",
+    "question": "Los elementos con 'position:absolute' se eliminan del flujo normal y pueden superponerse a los elementos.",
+    "answers": {
+      "answer_a": "Verdadero",
+      "answer_b": "Falso"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "53",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Cuál de estas es una pseudo-clase?",
+    "answers": {
+      "answer_a": ".wrapper > a",
+      "answer_b": "div + p",
+      "answer_c": "p:first-child"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "54",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Cuál de estos no es un selector de pseudo-elemento válido?",
+    "answers": {
+      "answer_a": "::first-line",
+      "answer_b": "::before",
+      "answer_c": "::paragraph"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "55",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cuál es el propósito de CSS?",
+    "answers": {
+      "answer_a": "Agregar funcionalidad a elementos html",
+      "answer_b": "Describir cómo se mostrarán los elementos html",
+      "answer_c": "Crear el marcado de un sitio web"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "56",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Qué separador se usa para declaraciones múltiples en el mismo bloque de reglas?",
+    "answers": {
+      "answer_a": ";",
+      "answer_b": ",",
+      "answer_c": "/"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "57",
+    "category": "css",
+    "level": "facil",
+    "question": "'position:sticky' establece que el elemento permanezca siempre en el mismo lugar si se desplaza la página.",
+    "answers": {
+      "answer_a": "True",
+      "answer_b": "False"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "58",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿En qué consiste el bloque de reglas CSS?",
+    "answers": {
+      "answer_a": "Etiqueta y valor",
+      "answer_b": "Selector y declaración",
+      "answer_c": "Clase y propiedad"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "59",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Qué selector se usa para crear una variable CSS con un alcance global?",
+    "answers": {
+      "answer_a": ":global",
+      "answer_b": ":all",
+      "answer_c": ":root"
+    },
+    "correct_answer": "answer_c"
+  },
+  {
+    "id": "60",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Cuál es la diferencia entre 'display:none' y 'visibility:hidden'?",
+    "answers": {
+      "answer_a": "'visibility:hidden' ocupará el mismo espacio que antes",
+      "answer_b": "display:none ocupará el mismo espacio que antes",
+      "answer_c": "No hay diferencia entre los dos"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "312",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cuál es la ventaja de utilizar CSS en línea?",
+    "answers": {
+      "answer_a": "Es más fácil de manejar",
+      "answer_b": "Es más fácil añadir múltiples estilos a través de él",
+      "answer_c": "Se puede utilizar para probar rápidamente las anulaciones locales de CSS",
+      "answer_d": "Reduce los conflictos con otros métodos de definición de CSS"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "313",
+    "category": "css",
+    "level": "facil",
+    "question": "Para insertar un archivo de hoja de estilo externo en otro archivo de hoja de estilo, ¿qué regla debe utilizar?",
+    "answers": {
+      "answer_a": "@import",
+      "answer_b": "@link",
+      "answer_c": "@insert",
+      "answer_d": "@style"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "314",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Qué opción no es válida para declarar un valor de relleno de 10 píxeles en la parte superior e inferior, y de 0 píxeles en la izquierda y la derecha?",
+    "answers": {
+      "answer_a": "padding: 10px 0px;",
+      "answer_b": "padding: 10px 10px 0px 0px;",
+      "answer_c": "padding: 10px 0;",
+      "answer_d": "padding: 10px 0px 10px 0px;"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "315",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Qué opción utiliza la sintaxis correcta para añadir una pseudo-clase hover a un elemento?",
+    "answers": {
+      "answer_a": "a:hover {...}",
+      "answer_b": "a :hover {...}",
+      "answer_c": "a.hover {...}",
+      "answer_d": "a hover {...}"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "316",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cual de los siguientes es un valor NO válido para la propiedad font-size?",
+    "answers": {
+      "answer_a": "font-size: xsmall",
+      "answer_b": "font-size: 50%",
+      "answer_c": "font-size: 1em",
+      "answer_d": "font-size: 20px"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "353",
+    "category": "css",
+    "level": "facil",
+    "question": "¿Cómo posicionamos un elemento dentro de otro de forma precisa?",
+    "answers": {
+      "answer_a": "Padre - position:relative / Hijo - position:absolute",
+      "answer_b": "Padre - position:absolute / Hijo - position:relative",
+      "answer_c": "Padre - position:fixed / Hijo - position:absolute"
+    },
+    "correct_answer": "answer_a"
+  },
+  {
+    "id": "354",
+    "category": "css",
+    "level": "normal",
+    "question": "¿Con que pseudo-selector se puede seleccionar el primer hijo, sin tener class name o id?",
+    "answers": {
+      "answer_a": "nth-child(0)",
+      "answer_b": "nth-child(1)",
+      "answer_c": "nth-first-child"
+    },
+    "correct_answer": "answer_b"
+  },
+  {
+    "id": "355",
+    "category": "css",
+    "level": "dificil",
+    "question": "¿Qué selector utilizarías para seleccionar un elemento que en el atributo título contenga la palabra \"container\"?",
+    "answers": {
+      "answer_a": "[title~=container]",
+      "answer_b": "[title^=container]",
+      "answer_c": "[title$=container]"
+    },
+    "correct_answer": "answer_a"
+  }
+]
