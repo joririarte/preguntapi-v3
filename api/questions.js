@@ -17,7 +17,7 @@ export default async function handler(req, res) {
 
     // Determinar el archivo a leer
     const categoryFile = category ? `${category.toLowerCase()}.json` : "default.json"; // Usa un archivo por defecto si no se proporciona categoría
-    const filePath = path.join(process.cwd(), categoryFile);
+    const filePath = path.join(process.cwd(),"api", categoryFile);
 
     // Verificar si el archivo existe
     try {
