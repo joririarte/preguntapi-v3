@@ -6,6 +6,9 @@ import path from "path";
 const ALLOWED_CATEGORIES = ["cpp", "javascript", "python","csharp","css","html","java","kotlin","php","sql","swift","typescript"]; // Agrega más según tus necesidades
 
 export default async function handler(req, res) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   try {
     // Obtener los parámetros de la consulta
     const { level, category, limit } = req.query;
